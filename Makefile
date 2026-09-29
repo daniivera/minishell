@@ -1,17 +1,9 @@
-# Compilador y banderas requeridas por la guía
-CC = gcc
-CFLAGS = -Wall -Wextra
-TARGET = minishell
-SRC = minishell.c
+all: minishell
 
-# Regla por defecto: compila el ejecutable
-all: $(TARGET)
+minishell: minishell.c
+	gcc -Wall -Wextra minishell.c -o minishell
 
-$(TARGET): $(SRC)
-	$(CC) $(CFLAGS) $(SRC) -o $(TARGET)
-
-# Regla para limpiar el ejecutable
 clean:
-	rm -f $(TARGET)
+	rm -f minishell
 
 .PHONY: all clean
