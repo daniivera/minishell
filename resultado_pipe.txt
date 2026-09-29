@@ -1,0 +1,2 @@
+-rw-r--r-- 1 danie danie     30 Sep 29 17:42 archivo_prueba.txt
+-rw-r--r-- 1 danie danie      0 Sep 29 17:44 resultado_pipe.txt

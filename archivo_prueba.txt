@@ -1,0 +1,8 @@
+total 260
+-rw-r--r-- 1 danie danie 221533 Sep 29 00:30 Bitácora .docx
+-rw-r--r-- 1 danie danie    126 Sep 29 00:30 Makefile
+-rw-r--r-- 1 danie danie   1649 Sep 29 08:33 README.md
+-rw-r--r-- 1 danie danie      0 Sep 29 18:11 archivo_prueba.txt
+-rwxr-xr-x 1 danie danie  16944 Sep 29 17:31 minishell
+-rw-r--r-- 1 danie danie   6717 Sep 29 17:42 minishell.c
+-rw-r--r-- 1 danie danie    128 Sep 29 17:44 resultado_pipe.txt

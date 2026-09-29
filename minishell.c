@@ -90,12 +90,12 @@ int main(void) {
             continue;
         }
 
-        // Para Visualizar la Separación
+        //Para Visualizar la Separación
         
         /* printf("[DEBUG] Comando ingresado: %s\n", args[0]);
         for (int j = 1; args[j] != NULL; j++) {
             printf("  [DEBUG] Argumento [%d]: %s\n", j, args[j]);
-        } */
+        }  */
 
         // ------------------------------------ COMANDOS INTERNOS (BUILT-INS) ------------------------------------
 
@@ -198,7 +198,7 @@ int main(void) {
             // --- PROCESO PADRE ---
             // Cierra ambos extremos del pipe en el padre. CRÍTICO para que el lector reciba EOF.
             close(pipefd[0]);
-            close(pipefd[1]);
+            close(pipefd[1]);   
 
             // Esperar a ambos hijos
             waitpid(pid1, NULL, 0);
